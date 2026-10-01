@@ -1,0 +1,19 @@
+project:
+  name: "AI Visual Defect Inspector"
+  category: "bottle"
+
+dataset:
+  name: "MVTecAD"
+  path: "data/MVTecAD"
+  category: "bottle"
+
+model:
+  name: "Patchcore"
+  backbone: "wide_resnet50_2"
+
+training:
+  image_size: 256
+  batch_size: 8
+
+inference:
+  threshold: 0.3285

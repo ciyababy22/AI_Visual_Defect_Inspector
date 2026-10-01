@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# IDE
+.vs/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*
+!data/README.md
+
+# Trained models
+models/*
+!models/README.md
+
+# Results
+results/*
+!results/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Word temporary files
+~$*.docx
+*.tmp
